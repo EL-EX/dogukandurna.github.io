@@ -1,4 +1,4 @@
-const getHash = () => window.location.hash || "#home";
+const getHash = () => window.location.hash || "#about";
 const hashActive = () => {
   [...document.querySelectorAll("a.navbar-link")]
     .map((link) => {
