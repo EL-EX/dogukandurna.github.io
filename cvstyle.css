@@ -115,7 +115,7 @@ body{
 .navbar-menus li {
     text-align: center;
     flex-direction: column;
-    font-size: 16px;
+    font-size: 18px;
     list-style-type:none;
     display: list-item;
     padding: 12px;
@@ -135,7 +135,7 @@ body{
     color: rgba(255, 255, 255, 0.75) !important;
 }
 
-.navbar-menus li.active a{
+.navbar-menus a.active{
     color: white !important;
 }
 
